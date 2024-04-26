@@ -1,0 +1,13 @@
+GET http://127.0.0.1:100
+###
+POST http://127.0.0.1:100
+Content-Type: application/json
+
+{
+    "name": "Salas",
+    "kode": "02",
+    "asal": "MDN"
+}
+
+###
+DELETE http://127.0.0.1:100/
